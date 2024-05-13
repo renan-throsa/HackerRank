@@ -11,8 +11,10 @@
         {
             int leftToRight = 0;
             int rightToLeft = 0;
-            int j = arr.Count-1;
-            for (int i = 0; i < arr.Count; i++)
+
+            int i, j;
+
+            for (i = 0, j = arr.Count - 1; i < arr.Count; i++)
             {
                 leftToRight += arr[i][i];
                 rightToLeft += arr[i][j--];
