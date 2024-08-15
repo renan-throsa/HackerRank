@@ -1,4 +1,4 @@
-﻿namespace Exercices.Week_4
+﻿ namespace Exercices.Week_4
 {
     public static class NumberLineJumps
     {
@@ -30,7 +30,7 @@
                 (v1 - v2) *j = x2 - x1
                 j = (x2 - x1) / (v1 - v2)
 
-                Since a kangaroo cannot make a fractional jump, the result of the division must be
+                Since a kangaroo cannot make a fractional jump j, the result of the division must be
                 an integer. With that in mind, we need to know weather (x2 - x1) % (v1 - v2) = 0.
                 If so, the answer is 'YES'. No, otherwise.
            
